@@ -1,6 +1,20 @@
-.App {
-  text-align: center;
+
+
+*
+{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
+
+.main {
+  text-align: center;
+  height: auto;
+  width: auto;
+  
+}
+
+
 
 .App-logo {
   height: 40vmin;
@@ -13,16 +27,38 @@
   }
 }
 
-.App-header {
+.main-header {
   background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
+
+.main-header >ul{
+  display: flex;
+  /* margin: 0 auto; */
+
+  padding: 15px;
+  
+
+}
+
+.main-header > ul > li {
+  outline: none;
+  display: flex;
+  margin: auto;
+  padding: 10px;
+  font-size: 15px;
+  list-style-type: none;
+  color: rgb(11, 220, 161);
+  cursor:  ;
+  
+
+}
+/* .main-header :hover, a:active {
+  background-color: red;
+} */
+
+
 
 .App-link {
   color: #61dafb;

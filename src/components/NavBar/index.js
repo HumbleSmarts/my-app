@@ -9,7 +9,7 @@ const Navbar = () => {
 	return (
 		
 			<Nav className="header">
-				 <div className="logo">Your Logo or Engineer's Name</div>
+				 <div className="logo"> Logo of Engineer Humble</div>
 				<NavMenu className="nav-list">
 					<NavLink to="/" activeStyle>
 						Home

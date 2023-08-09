@@ -1,26 +1,6 @@
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: #333;
-    color: white;
-  }
-  
   .logo {
     font-size: 24px;
     font-weight: bold;
-  }
-  
-  .nav-list {
-    list-style: none;
-    display: flex;
-    gap: 10px;
-    margin: 0;
-  }
-  
-  .nav-list li {
-    margin: 0;
   }
   
   .nav-list a {
@@ -45,6 +25,6 @@
     }
     
     .nav-list li {
-      margin-bottom: 10px;
+      margin-bottom: 5px;
     }
   }

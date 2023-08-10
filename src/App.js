@@ -1,4 +1,5 @@
 import React from 'react';
+// import React, { useState, useEffect } from 'react';
 import './App.css';
 import Navbar from './components/NavBar';
 import { BrowserRouter as Router, Routes, Route }
@@ -11,7 +12,18 @@ import Contact from './components/Pages/Contact';
 
 
 
+
 function App() {
+// 	const [load, upadateLoad] = useState(true);
+
+//   useEffect(() => {
+//     const timer = setTimeout(() => {
+//       upadateLoad(false);
+//     }, 1200);
+
+//     return () => clearTimeout(timer);
+//   }, []);
+
 	return (
 		<Router>
 			<Navbar />

@@ -6,14 +6,14 @@ export const Nav = styled.nav`
 align-items: center;
 color: white;
 background: #333;
-height: 85px;
+height: 45px;
 display: flex;
 justify-content: space-between;
-padding: 20px;
+padding: 10px;
 z-index: 12;
 position: sticky;
 top: 0;
-z-index: 100; /* Adjust this value as needed */
+z-index: 40; /* Adjust this value as needed */
 `;
 
 export const NavLink = styled(Link)`
@@ -40,7 +40,7 @@ color: #808080;
 	top: 0;
 	right: 0;
 	transform: translate(-100%, 75%);
-	font-size: 10px;
+	font-size: 2px;
 	cursor: pointer;
 }
 `;
@@ -48,13 +48,13 @@ color: #808080;
 export const NavMenu = styled.div`
 display: flex;
 align-items: center;
-margin-right: -24px;
+margin-right: 4px;
 /* Second Nav */
 /* margin-right: 24px; */
 /* Third Nav */
 /* width: 100vw;
 white-space: nowrap; */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 458px) {
 	display: none;
 }
 `;

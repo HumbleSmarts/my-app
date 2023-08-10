@@ -7,22 +7,16 @@ import { BrowserRouter as Router, Routes, Route }
 import Home from './components/Pages/index';
 import AboutMe from './components/Pages/AboutMe';
 import Blogs from './components/Pages/Blog';
-import Portfolio from './components/Pages/Portfolio';
+import Resume from './components/Pages/Resume';
 import Contact from './components/Pages/Contact';
+import Project from './components/Pages/Project';
+import Footer from './components/Pages/Footer';
 
 
 
 
 function App() {
-// 	const [load, upadateLoad] = useState(true);
-
-//   useEffect(() => {
-//     const timer = setTimeout(() => {
-//       upadateLoad(false);
-//     }, 1200);
-
-//     return () => clearTimeout(timer);
-//   }, []);
+	
 
 	return (
 		<Router>
@@ -32,8 +26,10 @@ function App() {
 				<Route path='/AboutMe' element={<AboutMe />} />
 				<Route path='/contact' element={<Contact />} />
 				<Route path='/blogs' element={<Blogs />} />
-				<Route path='/Portfolio' element={<Portfolio />} />
+				<Route path='/Resume' element={<Resume />} />
+				<Route path='/Project' element={<Project />} />
 			</Routes>
+			<Footer/>
 		</Router>
 		
 		

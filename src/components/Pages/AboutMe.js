@@ -1,7 +1,7 @@
 import React from 'react';
 // Import your CSS for styling
 import './../styles/css/AboutMe.css';
-import Footer from './Footer';
+
 
 const AboutMe = () => {
   return (
@@ -24,17 +24,19 @@ const AboutMe = () => {
       <div className="skills-section">
         <h2>Skills</h2>
         <ul>
-          <li>JavaScript/ES6+</li>
+          <li>JavaScript</li>
           <li>ReactJS</li>
           <li>Node.js</li>
-          <li>Express.js</li>
-          <li>SQL and NoSQL Databases</li>
+          <li>Python</li>
+          <li>Bootstrap</li>
+          <li>MySQL</li>
+          <li>Postgresql</li>
           <li>RESTful APIs</li>
-          <li>Agile Development</li>
+          <li>Django Framework</li>
         </ul>
       </div>
     </div>
-    < Footer/>
+ 
     </section>
   );
 };

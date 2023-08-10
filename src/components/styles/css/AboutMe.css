@@ -1,4 +1,58 @@
-.about{
+/* AboutPage.css */
+.about-page {
     display: flex;
-
-}
+    flex-direction: column;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .profile-section {
+    margin-bottom: 10px;
+    align-self: start;
+  }
+  
+  .profile-image {
+    width: 550px;
+    height: 450px;
+    background-image: url('./../image/profile-picture.JPG');
+    background-size: cover;
+    
+    border-radius: 70%;
+    border-color: rgb(4, 245, 164);
+    /* margin: 0 auto 15px; */
+    overflow: hidden;
+    margin: 29px 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: baseline;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .profile-image > h1 {
+    margin: 10px 0;
+    font-size: 30px;
+       
+  }
+  
+  .bio-section, .skills-section {
+    max-width: 600px;
+  }
+  
+  h2 {
+    font-size: 24px;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 8px;
+  }
+  

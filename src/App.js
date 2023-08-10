@@ -9,6 +9,8 @@ import Blogs from './components/Pages/Blog';
 import Portfolio from './components/Pages/Portfolio';
 import Contact from './components/Pages/Contact';
 
+
+
 function App() {
 	return (
 		<Router>
@@ -21,6 +23,9 @@ function App() {
 				<Route path='/Portfolio' element={<Portfolio />} />
 			</Routes>
 		</Router>
+		
+		
+
 	);
 }
 

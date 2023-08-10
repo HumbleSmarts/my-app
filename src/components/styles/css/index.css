@@ -2,27 +2,25 @@
 .hero-section {
     background-color: #f5f5f5;
     display: flex;
-    align-items: center;
     justify-content: center;
     height: 100vh;
-    
   }
   
   .hero-content {
-    text-align: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
   }
   
   .profile-picture-container {
-    width: 150px;
-    height: 150px;
+    width: 450px;
+    height: 450px;
     overflow: hidden;
-    border-radius: 50%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    align-items: baseline;
+    border-radius: 10%;
+    border-top-right-radius: 90%;
+    background-origin: padding-box;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    margin-left: 190px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   }
   
@@ -30,16 +28,31 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+
+
   }
   
-  .engineer-name {
+  .engineer-info {
     font-size: 2.5rem;
-    margin: 10px 0;
+    margin: 20px auto;
+  }
+
+  .engineer-name{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 200px;
+
   }
   
   .tagline {
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     color: #555;
+    text-align: center;
+  }
+  .detail{
+    text-anchor: start;
+    align-self: last baseline;
+  
   }
   
   @media (max-width: 768px) {
@@ -50,6 +63,8 @@
       font-size: 1rem;
     }
   }
+
+
   
   
   

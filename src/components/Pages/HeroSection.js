@@ -1,7 +1,7 @@
 import React from "react";
 import './styles/css/HeroSection.css'; // Import your CSS for styling
 import profilepicture from './styles/image/profile-picture.JPG'; // Tell webpack this JS file uses this image
-
+import Footer from './Footer';
 
 const HeroSection = () => {
   return (
@@ -21,6 +21,7 @@ const HeroSection = () => {
         <p className="tagline"> Software Engineer</p>
       </div>
     </div>
+    < Footer/>
     </section>
   );
 };

@@ -1,5 +1,5 @@
 import React from 'react';
-import './../styles/css/index.css'; // Import your CSS for styling
+import './../styles/css/style.css'; // Import your CSS for styling
 import profilepicture from './../styles/image/profile-picture.JPG'; // Tell webpack this JS file uses this image
 
 

@@ -1,6 +1,6 @@
 import React from 'react';
 // Import your CSS for styling
-import './../styles/css/AboutMe.css';
+import './../styles/css/style.css';
 
 
 const AboutMe = () => {

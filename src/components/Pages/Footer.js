@@ -8,8 +8,15 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-content">
         <div className="footer-left">
-          <h3>Humble Abraham</h3>
+          <p> 2023 copy</p>
+        </div>
+        
+        <div className='footer-center'>
+         <h4>Humble Abraham</h4>
           <p>Software Developer | AI Enthusiast</p>
+
+
+
         </div>
         <div className="footer-right">
           <ul className="social-icons">

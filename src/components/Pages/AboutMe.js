@@ -1,6 +1,8 @@
 import React from 'react';
 // Import your CSS for styling
 import './../styles/css/style.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faJs, faReact, faPython, faNodeJs, faBootstrap } from '@fortawesome/free-brands-svg-icons';
 
 
 const AboutMe = () => {
@@ -24,15 +26,15 @@ const AboutMe = () => {
       <div className="skills-section">
         <h2>Skills</h2>
         <ul>
-          <li>JavaScript</li>
-          <li>ReactJS</li>
-          <li>Node.js</li>
-          <li>Python</li>
-          <li>Bootstrap</li>
-          <li>MySQL</li>
-          <li>Postgresql</li>
-          <li>RESTful APIs</li>
-          <li>Django Framework</li>
+          <li> <FontAwesomeIcon icon={faJs} /> JavaScript </li>
+          <li> < FontAwesomeIcon icon={faReact}/> ReactJS </li>
+          <li> < FontAwesomeIcon icon={faNodeJs}/> Node.js</li>
+          <li> < FontAwesomeIcon icon={faPython}/> Python </li>
+          <li> < FontAwesomeIcon icon={faBootstrap}/> Bootstrap</li>
+          <li> MySQL</li>
+          <li> Postgresql</li>
+          <li> RESTful APIs</li>
+          <li> Django Framework</li>
         </ul>
       </div>
     </div>

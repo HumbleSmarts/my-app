@@ -1,8 +1,8 @@
-  .logo {
+  /* .logo {
 
     color: #12a8f3;
     
-  }
+  } */
   
 /* .sticky {
     background-color: #1b1a2ea9 !important;
@@ -19,7 +19,7 @@
   }
   
   .nav-list a:hover {
-    color: #f39c12;
+    color: aqua;
   }
   
   /* Add media queries for responsiveness */
